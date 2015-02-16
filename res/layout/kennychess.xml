@@ -1,0 +1,457 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context=".KennyChess" >
+
+	<TextView
+	    android:id="@+id/text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	
+	<RelativeLayout
+		android:id="@+id/board"
+		android:layout_below="@id/text"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center" >
+		<Button
+			android:id="@+id/board_8a"
+			android:layout_alignParentLeft="true"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_8b"
+			android:layout_toRightOf="@id/board_8a"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_8c"
+			android:layout_toRightOf="@id/board_8b"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_8d"
+			android:layout_toRightOf="@id/board_8c"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_8e"
+			android:layout_toRightOf="@id/board_8d"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_8f"
+			android:layout_toRightOf="@id/board_8e"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_8g"
+			android:layout_toRightOf="@id/board_8f"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_8h"
+			android:layout_toRightOf="@id/board_8g"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_7a"
+			android:layout_below="@id/board_8a"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_7b"
+			android:layout_below="@id/board_8b"
+			android:layout_toRightOf="@id/board_7a"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_7c"
+			android:layout_below="@id/board_8c"
+			android:layout_toRightOf="@id/board_7b"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_7d"
+			android:layout_below="@id/board_8d"
+			android:layout_toRightOf="@id/board_7c"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_7e"
+			android:layout_below="@id/board_8e"
+			android:layout_toRightOf="@id/board_7d"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_7f"
+			android:layout_below="@id/board_8f"
+			android:layout_toRightOf="@id/board_7e"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_7g"
+			android:layout_below="@id/board_8g"
+			android:layout_toRightOf="@id/board_7f"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_7h"
+			android:layout_below="@id/board_8h"
+			android:layout_toRightOf="@id/board_7g"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_6a"
+			android:layout_below="@id/board_7a"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_6b"
+			android:layout_below="@id/board_7b"
+			android:layout_toRightOf="@id/board_6a"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_6c"
+			android:layout_below="@id/board_7c"
+			android:layout_toRightOf="@id/board_6b"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_6d"
+			android:layout_below="@id/board_7d"
+			android:layout_toRightOf="@id/board_6c"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_6e"
+			android:layout_below="@id/board_7e"
+			android:layout_toRightOf="@id/board_6d"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_6f"
+			android:layout_below="@id/board_7f"
+			android:layout_toRightOf="@id/board_6e"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_6g"
+			android:layout_below="@id/board_7g"
+			android:layout_toRightOf="@id/board_6f"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_6h"
+			android:layout_below="@id/board_7h"
+			android:layout_toRightOf="@id/board_6g"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_5a"
+			android:layout_below="@id/board_6a"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_5b"
+			android:layout_below="@id/board_6b"
+			android:layout_toRightOf="@id/board_5a"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_5c"
+			android:layout_below="@id/board_6c"
+			android:layout_toRightOf="@id/board_5b"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_5d"
+			android:layout_below="@id/board_6d"
+			android:layout_toRightOf="@id/board_5c"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_5e"
+			android:layout_below="@id/board_6e"
+			android:layout_toRightOf="@id/board_5d"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_5f"
+			android:layout_below="@id/board_6f"
+			android:layout_toRightOf="@id/board_5e"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_5g"
+			android:layout_below="@id/board_6g"
+			android:layout_toRightOf="@id/board_5f"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_5h"
+			android:layout_below="@id/board_6h"
+			android:layout_toRightOf="@id/board_5g"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_4a"
+			android:layout_below="@id/board_5a"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_4b"
+			android:layout_below="@id/board_5b"
+			android:layout_toRightOf="@id/board_4a"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_4c"
+			android:layout_below="@id/board_5c"
+			android:layout_toRightOf="@id/board_4b"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_4d"
+			android:layout_below="@id/board_5d"
+			android:layout_toRightOf="@id/board_4c"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_4e"
+			android:layout_below="@id/board_5e"
+			android:layout_toRightOf="@id/board_4d"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_4f"
+			android:layout_below="@id/board_5f"
+			android:layout_toRightOf="@id/board_4e"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_4g"
+			android:layout_below="@id/board_5g"
+			android:layout_toRightOf="@id/board_4f"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_4h"
+			android:layout_below="@id/board_5h"
+			android:layout_toRightOf="@id/board_4g"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_3a"
+			android:layout_below="@id/board_4a"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_3b"
+			android:layout_below="@id/board_4b"
+			android:layout_toRightOf="@id/board_3a"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_3c"
+			android:layout_below="@id/board_4c"
+			android:layout_toRightOf="@id/board_3b"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_3d"
+			android:layout_below="@id/board_4d"
+			android:layout_toRightOf="@id/board_3c"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_3e"
+			android:layout_below="@id/board_4e"
+			android:layout_toRightOf="@id/board_3d"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_3f"
+			android:layout_below="@id/board_4f"
+			android:layout_toRightOf="@id/board_3e"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_3g"
+			android:layout_below="@id/board_4g"
+			android:layout_toRightOf="@id/board_3f"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_3h"
+			android:layout_below="@id/board_4h"
+			android:layout_toRightOf="@id/board_3g"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_2a"
+			android:layout_below="@id/board_3a"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_2b"
+			android:layout_below="@id/board_3b"
+			android:layout_toRightOf="@id/board_2a"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_2c"
+			android:layout_below="@id/board_3c"
+			android:layout_toRightOf="@id/board_2b"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_2d"
+			android:layout_below="@id/board_3d"
+			android:layout_toRightOf="@id/board_2c"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_2e"
+			android:layout_below="@id/board_3e"
+			android:layout_toRightOf="@id/board_2d"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_2f"
+			android:layout_below="@id/board_3f"
+			android:layout_toRightOf="@id/board_2e"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_2g"
+			android:layout_below="@id/board_3g"
+			android:layout_toRightOf="@id/board_2f"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_2h"
+			android:layout_below="@id/board_3h"
+			android:layout_toRightOf="@id/board_2g"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_1a"
+			android:layout_below="@id/board_2a"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_1b"
+			android:layout_below="@id/board_2b"
+			android:layout_toRightOf="@id/board_1a"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_1c"
+			android:layout_below="@id/board_2c"
+			android:layout_toRightOf="@id/board_1b"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_1d"
+			android:layout_below="@id/board_2d"
+			android:layout_toRightOf="@id/board_1c"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_1e"
+			android:layout_below="@id/board_2e"
+			android:layout_toRightOf="@id/board_1d"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_1f"
+			android:layout_below="@id/board_2f"
+			android:layout_toRightOf="@id/board_1e"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_1g"
+			android:layout_below="@id/board_2g"
+			android:layout_toRightOf="@id/board_1f"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+		<Button
+			android:id="@+id/board_1h"
+			android:layout_below="@id/board_2h"
+			android:layout_toRightOf="@id/board_1g"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:textAllCaps="false" />
+	</RelativeLayout>
+
+</RelativeLayout>

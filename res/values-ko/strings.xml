@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">KennyChess</string>
+	<string name="full_name">KennyChess v0.8.0 [4]</string>
+	<string name="preference_name">설정</string>
+	<string name="copyright">Copyright ⓒ 2014-2015 by KENNYSOFT. All Rights Reserved.</string>
+	
+	<string name="menu_information">정보</string>
+	<string name="menu_settings">설정</string>
+	<string name="menu_exit">종료</string>
+	
+	<string name="nowTurn">%dp의 차례</string>
+	
+	<string name="promotion_title">프로모션</string>
+	<string name="promotion_queen">퀸</string>
+	<string name="promotion_knight">나이트</string>
+	<string name="promotion_bishop">비숍</string>
+	<string name="promotion_rook">룩</string>
+	
+	<string name="end_1p">1p 승리!</string>
+	<string name="end_2p">2p 승리!</string>
+	<string name="end_draw">비김</string>
+	
+	<string name="quit_ing">[BACK] 버튼을 한번 더 누르면 종료됩니다.</string>
+	<string name="quit_end">KennyChess를 이용해 주셔서 감사합니다.</string>
+	
+	<string name="preference_information">정보</string>
+	<string name="preference_update">업데이트 사항</string>
+	<string name="preference_link">별점 및 리뷰</string>
+	
+	<string name="information">
+	<b>깔끔한 디자인 속에서 빠르게 체스를 플레이하세요!</b>\n\n
+	간단한 체스 게임입니다. 별도의 그래픽 사용 없이 오직 기본 위젯들만으로 가볍게 체스를 즐기세요.\n\n
+	기물 표현에는 <a href="http://www.styleseven.com/php/get_product.php?product=Chess-7%20font">Chess-7</a>을 사용하였습니다.\n\n
+	Copyright ⓒ 2014-2015 by KENNYSOFT. All Rights Reserved.
+	</string>
+	
+	<string name="update">
+	<b>v0.8.0</b> [4] <i>(15.02.17)</i>\n
+	* 영어 번역을 추가하였습니다.\n\n
+	<b>v0.7.0</b> [3] <i>(15.02.02)</i>\n
+	* 승리 및 비김에 대한 정보를 표시하는 기능을 추가하였습니다.\n\n
+	<b>v0.6.0</b> [2] <i>(15.02.02)</i>\n
+	* 앙파상이 처리되지 않던 오류를 수정하였습니다.\n
+	* 체크메이트 및 스테일메이트 감지 기능을 추가하였습니다.\n
+	* 정보 창에 사용한 라이브러리에 대한 링크를 추가하였습니다.\n\n
+	<b>v0.5.0</b> [1] <i>(15.02.01)</i>\n
+	* 최초 릴리즈입니다.\n
+	&#160;&#160;# 추신 : 프로모션, 앙파상, 캐슬링, 체크 감지 등이 구현되어 있습니다.
+	</string>
+</resources>

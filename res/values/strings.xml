@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">KennyChess</string>
+	<string name="full_name">KennyChess v0.8.0 [4]</string>
+	<string name="preference_name">Settings</string>
+	<string name="copyright">Copyright ⓒ 2014-2015 by KENNYSOFT. All Rights Reserved.</string>
+	
+	<string name="menu_information">Information</string>
+	<string name="menu_settings">Settings</string>
+	<string name="menu_exit">Quit</string>
+	
+	<string name="nowTurn">%dp\'s Turn</string>
+	
+	<string name="promotion_title">Promotion</string>
+	<string name="promotion_queen">Queen</string>
+	<string name="promotion_knight">Knight</string>
+	<string name="promotion_bishop">Bishop</string>
+	<string name="promotion_rook">Rook</string>
+	
+	<string name="end_1p">1p Won!</string>
+	<string name="end_2p">2p Won!</string>
+	<string name="end_draw">Draw</string>
+	
+	<string name="quit_ing">Tap on [BACK] button once more to quit.</string>
+	<string name="quit_end">Thanks for using KennyChess.</string>
+	
+	<string name="preference_information">Information</string>
+	<string name="preference_update">Update Log</string>
+	<string name="preference_link">Stars and Reviews</string>
+	
+	<string name="information">
+	<b>Play chess immediately in clean design!</b>\n\n
+	It is a simple chess game. Play chess game simply with basic widgets and without special graphics.\n\n
+	<a href="http://www.styleseven.com/php/get_product.php?product=Chess-7%20font">Chess-7</a> is used to draw chess pieces.\n\n
+	Copyright ⓒ 2014-2015 by KENNYSOFT. All Rights Reserved.
+	</string>
+	
+	<string name="update">
+	<b>v0.8.0</b> [4] <i>(15.02.17)</i>\n
+	* English translation is added.\n\n
+	<b>v0.7.0</b> [3] <i>(15.02.02)</i>\n
+	* A window that shows information when the game ended is added.\n\n
+	<b>v0.6.0</b> [2] <i>(15.02.02)</i>\n
+	* En passant error is fixed.\n
+	* Checking Checkmate and Stalemate function is added.\n
+	* Link to used library is added in information window.\n\n
+	<b>v0.5.0</b> [1] <i>(15.02.01)</i>\n
+	* First Release.\n
+	&#160;&#160;# P.S. : Promotion, En passant, Castling, Checking Check is realized.
+	</string>
+</resources>
